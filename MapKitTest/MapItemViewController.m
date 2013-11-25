@@ -79,8 +79,6 @@
 }
 
 - (void)showMap{
-    
-   
     NSDictionary *address = @{
                               (NSString *)kABPersonAddressStreetKey: street.text,
                               (NSString *)kABPersonAddressCityKey: city.text,
@@ -98,6 +96,7 @@
                               MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving
                               };
    //[mapItem openInMapsWithLaunchOptions:options];
+    //[mapItem openInMapsWithLaunchOptions:nil];
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(_coordinates, 1*METERS_PER_MILE, 1*METERS_PER_MILE);
     
     [mapView setRegion:viewRegion animated:YES];
