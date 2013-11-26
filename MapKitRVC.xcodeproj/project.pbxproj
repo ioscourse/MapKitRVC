@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1298CAEE1844192300BCDB73 /* HotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1298CAED1844192300BCDB73 /* HotelViewController.m */; };
 		772A2142177E4C140000581D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A2141177E4C140000581D /* UIKit.framework */; };
 		772A2144177E4C140000581D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A2143177E4C140000581D /* Foundation.framework */; };
 		772A2146177E4C140000581D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A2145177E4C140000581D /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1298CAEC1844192300BCDB73 /* HotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelViewController.h; sourceTree = "<group>"; };
+		1298CAED1844192300BCDB73 /* HotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelViewController.m; sourceTree = "<group>"; };
 		772A213E177E4C140000581D /* MapKitRVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitRVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772A2141177E4C140000581D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		772A2143177E4C140000581D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +68,8 @@
 		772A2135177E4C140000581D = {
 			isa = PBXGroup;
 			children = (
+				1298CAEC1844192300BCDB73 /* HotelViewController.h */,
+				1298CAED1844192300BCDB73 /* HotelViewController.m */,
 				772A216B177E50520000581D /* AddressBook.framework */,
 				772A2169177E4E050000581D /* MapKit.framework */,
 				772A2167177E4E000000581D /* CoreLocation.framework */,
@@ -188,6 +193,7 @@
 				772A214E177E4C140000581D /* main.m in Sources */,
 				772A2152177E4C140000581D /* AppDelegate.m in Sources */,
 				772A2166177E4CB90000581D /* MapItemViewController.m in Sources */,
+				1298CAEE1844192300BCDB73 /* HotelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

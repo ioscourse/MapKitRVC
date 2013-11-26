@@ -9,6 +9,7 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <AddressBook/AddressBook.h>
+#import "AppDelegate.h"
 
 @interface MapItemViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextField *street;
@@ -24,6 +25,9 @@
 - (IBAction)btnMyHotels:(id)sender;
 - (IBAction)btnRestaurant:(id)sender;
 - (IBAction)btnATM:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *txtHotel;
+
+
 
 
 @end

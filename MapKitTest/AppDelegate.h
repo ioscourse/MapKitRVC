@@ -6,7 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+NSString * strHotel;
 
+int FixedID;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
